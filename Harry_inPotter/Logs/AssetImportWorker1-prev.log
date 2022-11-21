@@ -1,0 +1,2598 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit ProfessionalWorkstation' Language: 'tr' Physical Memory: 16229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/yasin/JellyFish - Clone
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63954
+Successfully changed project path to: C:/Users/yasin/JellyFish - Clone
+C:/Users/yasin/JellyFish - Clone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 98.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yasin/JellyFish - Clone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 (ID=0x2507)
+    Vendor:   NVIDIA
+    VRAM:     8070 MB
+    Driver:   31.0.15.1740
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004959 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 103.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (74ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005744 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 98.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1262ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (981ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5753 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (0.8 MB). Loaded Objects now: 6211.
+Memory consumption went from 224.9 MB to 224.0 MB.
+Total: 3.229300 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.290200 ms MarkObjects: 2.400400 ms  DeleteObjects: 0.244700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158924.731581 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundGreen_2.terrainlayer
+  artifactKey: Guid(16981b63c41161a4399602a01871d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundGreen_2.terrainlayer using Guid(16981b63c41161a4399602a01871d945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987998cde54c64d4ef834e8437919a40') in 0.165040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_2.terrainlayer
+  artifactKey: Guid(c9c0103110e300543ba65152f7e7edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_2.terrainlayer using Guid(c9c0103110e300543ba65152f7e7edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1719e6da483e23c66c5e44e35c77119b') in 0.036098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_8.terrainlayer
+  artifactKey: Guid(fa6002ae4bf15d1428fa30a1563ec6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_8.terrainlayer using Guid(fa6002ae4bf15d1428fa30a1563ec6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8db43c71f1b437f35de409120d464e') in 0.015346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_5.terrainlayer
+  artifactKey: Guid(a82394c86ef611b46a122e65d1427b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_5.terrainlayer using Guid(a82394c86ef611b46a122e65d1427b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bede12ced16f7bfb8ce7f7c7673cef1a') in 0.033920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_7.terrainlayer
+  artifactKey: Guid(9c1d4af1faf38244d8b2817e2470aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_7.terrainlayer using Guid(9c1d4af1faf38244d8b2817e2470aa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1556a814525bdeace7ca57a5f8beef') in 0.023843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_3.terrainlayer
+  artifactKey: Guid(9cf59b35fa2af7d4dab617267d08f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_3.terrainlayer using Guid(9cf59b35fa2af7d4dab617267d08f9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab357d940c2701fb6bb62677dd3997a') in 0.058461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_4.terrainlayer
+  artifactKey: Guid(ac64836655539e742835df844fba60ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_4.terrainlayer using Guid(ac64836655539e742835df844fba60ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a56534e82a518b21bd02861c114add') in 0.040231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundRock_1.terrainlayer
+  artifactKey: Guid(76c9959a52c8ae3409a47d223dc34788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundRock_1.terrainlayer using Guid(76c9959a52c8ae3409a47d223dc34788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2977b2feb4ccb5ed7a6ac3449502dc') in 0.038242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_1.terrainlayer
+  artifactKey: Guid(8ef8aa43648fd8847b42f1f11f658082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_1.terrainlayer using Guid(8ef8aa43648fd8847b42f1f11f658082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dacfdb187bdd708baf552e5284ece7') in 0.036363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Terrain/GroundSand_6.terrainlayer
+  artifactKey: Guid(6c74c2e8c95d03a42aabf248c37deadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Terrain/GroundSand_6.terrainlayer using Guid(6c74c2e8c95d03a42aabf248c37deadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d11bd5449829032b2b45cc9f892131') in 0.024545 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006715 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (412ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5616 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6232.
+Memory consumption went from 220.9 MB to 220.1 MB.
+Total: 4.164900 ms (FindLiveObjects: 0.275900 ms CreateObjectMapping: 0.427000 ms MarkObjects: 3.199200 ms  DeleteObjects: 0.261900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.778648 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_1.prefab
+  artifactKey: Guid(8fb3b0705a622c949ab19d8151e272be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_1.prefab using Guid(8fb3b0705a622c949ab19d8151e272be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282343c9b9d2a7bca45c2b6e7d7870d6') in 0.593646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick4.prefab
+  artifactKey: Guid(0955d992df5d6b54c8da8b5c1e009d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick4.prefab using Guid(0955d992df5d6b54c8da8b5c1e009d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e720c71e55715b9a59d5ec29f113714a') in 0.085836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_PortalSphere.prefab
+  artifactKey: Guid(f5df5e09d6babdc4ab33ded5a6e1a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_PortalSphere.prefab using Guid(f5df5e09d6babdc4ab33ded5a6e1a35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0607bc2e6a6d40b5ede9ea781150d357') in 0.640148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_2.prefab
+  artifactKey: Guid(4b1e876c867187342ade905889af887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BambooHouse_2.prefab using Guid(4b1e876c867187342ade905889af887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5678e0068270ddb7a9c6269a6464c7') in 0.200297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab
+  artifactKey: Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab using Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52db6da97198dfe878884e470330ae91') in 0.289853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab
+  artifactKey: Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab using Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc814ede42b59bc1b0eddaea301a277c') in 0.327785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick2.prefab
+  artifactKey: Guid(7ac7d6465006ca24080cfcf8defbdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset1_Stick2.prefab using Guid(7ac7d6465006ca24080cfcf8defbdfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb182f0cde90f18fb67941520cac643c') in 0.081610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Oldtext.prefab
+  artifactKey: Guid(f947b027811f37040be84c44d90532cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Oldtext.prefab using Guid(f947b027811f37040be84c44d90532cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5ce73373f45944a4e90fde7e73a149') in 0.044021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab
+  artifactKey: Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab using Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd2590a1f9b7dfe9989f242b823fd3c') in 0.064737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_GroundAssetset_boat1.prefab
+  artifactKey: Guid(dd99a0e1bf0f5f247aa5cbc8b9473984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_GroundAssetset_boat1.prefab using Guid(dd99a0e1bf0f5f247aa5cbc8b9473984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23a13ea5ae35167a4ac00a28fe2f27b') in 0.324344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint1.prefab
+  artifactKey: Guid(46b2191c533248a4189c8e50edf0ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint1.prefab using Guid(46b2191c533248a4189c8e50edf0ae47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a98d3fbd21a0356d1fa8c10e8e7fe91') in 0.067829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile3.prefab
+  artifactKey: Guid(26ff2760dcd37464996eaee30729de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile3.prefab using Guid(26ff2760dcd37464996eaee30729de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d79ab53119b0d3da4737a21a67c050') in 0.045439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab
+  artifactKey: Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab using Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57603be631324f59d931bdcf28b13cbe') in 0.060315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill1.prefab
+  artifactKey: Guid(2c4ada107f11c85428cf29b036419497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill1.prefab using Guid(2c4ada107f11c85428cf29b036419497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e077c6b1023c2c3ad0bb9e4864c2e98') in 0.431921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile1.prefab
+  artifactKey: Guid(12e0c419a8782ff44a5dff7f666f311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_BridgeSet_Pile1.prefab using Guid(12e0c419a8782ff44a5dff7f666f311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa5307286b12768ef44fb9d1bc26ce4') in 0.066593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile4.prefab
+  artifactKey: Guid(b74080c501552fd4c9970add9fc707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile4.prefab using Guid(b74080c501552fd4c9970add9fc707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0d670acc7788a5b14e5dcdaae37bac') in 0.151665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab
+  artifactKey: Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab using Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79df670cd9e84d6d5e5cc900c2ec09e2') in 0.097816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile10.prefab
+  artifactKey: Guid(238e5715ddb3baf43ade44c21261f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile10.prefab using Guid(238e5715ddb3baf43ade44c21261f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7956905c126d1b958d8dc57b946449') in 0.084796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile2.prefab
+  artifactKey: Guid(669e1e710f7741e4aa5ea10e28dc816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile2.prefab using Guid(669e1e710f7741e4aa5ea10e28dc816b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95863abd3b4f231376d0ddb30c19e66') in 0.147969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile9.prefab
+  artifactKey: Guid(8e640276918ddf64eb327dcf081c8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile9.prefab using Guid(8e640276918ddf64eb327dcf081c8406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b6cd11756961c8acac98e53796035d') in 0.110584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab
+  artifactKey: Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab using Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f576d3fc6f9dc911eb6dd8b4ede4fb31') in 0.020401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile12.prefab
+  artifactKey: Guid(1a7ecdeb83dc4074da160d2d10b1ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile12.prefab using Guid(1a7ecdeb83dc4074da160d2d10b1ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a2bfeb748346d56d960c7fa7cc3f3') in 0.096502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile11.prefab
+  artifactKey: Guid(c07631e61b8f6754685de3cc0f3ff7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile11.prefab using Guid(c07631e61b8f6754685de3cc0f3ff7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0892a90a882408ab88f593405eb706fc') in 0.053564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile7.prefab
+  artifactKey: Guid(5b0f81d63d2d6304fa865c1e83717bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile7.prefab using Guid(5b0f81d63d2d6304fa865c1e83717bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826db23fa91746eb5aca5a82194607e3') in 0.053202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet2_Pile1.prefab
+  artifactKey: Guid(11b4daab94d9a2246bb3a79c702bbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet2_Pile1.prefab using Guid(11b4daab94d9a2246bb3a79c702bbfd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956a807ace2f2d289b82af1d0b3b8f93') in 0.083862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile5.prefab
+  artifactKey: Guid(709dbea6368909c449b3347f716c000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile5.prefab using Guid(709dbea6368909c449b3347f716c000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638f311d33968d31cd2fd87bf245d8b9') in 0.059883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile1.prefab
+  artifactKey: Guid(0325e4ce2f90a5e40af6be6f026693fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_TreeSet1_Pile1.prefab using Guid(0325e4ce2f90a5e40af6be6f026693fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb204f4491b351877860b422301ea76b') in 0.069002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint3.prefab
+  artifactKey: Guid(bb2b7aeb112031843b3d79019ba8e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Bambooset2_joint3.prefab using Guid(bb2b7aeb112031843b3d79019ba8e763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d1d900da6220d5226207dad8e6c139') in 0.071791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004624 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (918ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6298.
+Memory consumption went from 228.0 MB to 227.2 MB.
+Total: 4.148400 ms (FindLiveObjects: 0.433500 ms CreateObjectMapping: 0.285400 ms MarkObjects: 3.163900 ms  DeleteObjects: 0.264300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95.636857 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Water.prefab
+  artifactKey: Guid(fb3c2ca68d9871c4d9c9f18996d0c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Water.prefab using Guid(fb3c2ca68d9871c4d9c9f18996d0c99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a1f53e34ba33e82c8df1dd7351998c') in 0.673924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 121.069782 seconds.
+  path: Assets/Plugins/SimpleInput/Prefabs/DpadMultiplePieces.prefab
+  artifactKey: Guid(f85b4a2b127c8b844b3e08d59561124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/SimpleInput/Prefabs/DpadMultiplePieces.prefab using Guid(f85b4a2b127c8b844b3e08d59561124d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd812db6d34bb7de75d5130dc3d594880') in 0.034355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.850997 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab
+  artifactKey: Guid(08fd1b80cc24cc8439f45fda3c558255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 0.prefab using Guid(08fd1b80cc24cc8439f45fda3c558255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dfa2285d77e00b8abb0a665ed1581c') in 0.025022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.200205 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab
+  artifactKey: Guid(529eb4216865eba419c1a4a68d0b0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire 2.prefab using Guid(529eb4216865eba419c1a4a68d0b0388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d518eaeed5f4ad2fec0656aafd99f6f') in 0.029210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021098 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab
+  artifactKey: Guid(c590b17884b119046bc6412066500b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab using Guid(c590b17884b119046bc6412066500b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc401980e526ddca11a6d991c7c703f') in 0.022561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.767991 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile8.fbx
+  artifactKey: Guid(9e8ae113cd0ada548947936c6408a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile8.fbx using Guid(9e8ae113cd0ada548947936c6408a8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88c5299c1e82673e69c77f07eedf9be') in 0.065744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile11.fbx
+  artifactKey: Guid(9a4045a35d63a64469b42d815f8802ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile11.fbx using Guid(9a4045a35d63a64469b42d815f8802ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2930100d8cb633b8453f0b97f19f31') in 0.028601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile9.fbx
+  artifactKey: Guid(9a2b281d37d74bf438c0d898c8f1c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Trees/BambooTree/PA_TreeSet1_Pile9.fbx using Guid(9a2b281d37d74bf438c0d898c8f1c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3ef98158870beb55113c6021caa3b3') in 0.026779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.879657 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Sky/PA_SkyboxDay_mtl.mat
+  artifactKey: Guid(e30852681d4f76d4ab79d663c02e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Sky/PA_SkyboxDay_mtl.mat using Guid(e30852681d4f76d4ab79d663c02e4998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e291d030d1b64018568aa97b7c0f93') in 0.022534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Sky/PA_SkyboxNight_mtl.mat
+  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Sky/PA_SkyboxNight_mtl.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38172e6cf6c61afd52fe5d465d6658d3') in 0.013686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.128502 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf28a6985774dacf857648e5d88a7b36') in 0.068532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b84299eadedd6e7509889ba41bfe08a') in 0.016882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a32bc9283638eb35991ee1ae34026df') in 0.016597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382d6cc6cfe22704f98bcb714b8efec') in 0.015895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.271487 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown.png
+  artifactKey: Guid(ba304f5556a3a4fac98d126883083e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown.png using Guid(ba304f5556a3a4fac98d126883083e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74b046e17ae2a60c28f101af57526e5') in 0.034102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@2x.png
+  artifactKey: Guid(153c8e15f7f6c452ca50f6795813ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronDown@2x.png using Guid(153c8e15f7f6c452ca50f6795813ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aff3cf8d418e21d81cf560dff9b3455') in 0.017780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.691754 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRockNormal_1.png
+  artifactKey: Guid(12397f46a277a0c42b8bd4324719c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundRockNormal_1.png using Guid(12397f46a277a0c42b8bd4324719c8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6290d4a92d0fc02ec74c7fcf4c476f74') in 0.029527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile1/PA_RockSet2_Pile1mtl_baseColor.png
+  artifactKey: Guid(6f4e012d582229547a555e7aa1a326c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile1/PA_RockSet2_Pile1mtl_baseColor.png using Guid(6f4e012d582229547a555e7aa1a326c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fced7235c70bc0dc0fd93652199444') in 0.065257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004958 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile1/PA_RockSet2_Pile1_mtl_occlusion.png
+  artifactKey: Guid(3a068e0981a77904caa0e2312e208f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile1/PA_RockSet2_Pile1_mtl_occlusion.png using Guid(3a068e0981a77904caa0e2312e208f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57598a05ce7a47cb36d7039597f57a14') in 0.061239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet1_Pile1/PA_RockSet1_baseColor.png
+  artifactKey: Guid(6ce914c12ae061e4ba734d1053e60c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet1_Pile1/PA_RockSet1_baseColor.png using Guid(6ce914c12ae061e4ba734d1053e60c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e49236af5b8414794e8257bc7e314') in 0.065925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet1_Pile1/PA_RockSet1_occlusion.png
+  artifactKey: Guid(81bec6842e0ce2348899176a37fce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet1_Pile1/PA_RockSet1_occlusion.png using Guid(81bec6842e0ce2348899176a37fce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f61d1470afc5050b4ab39bbe69031c0') in 0.037715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.016987 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile4/PA_RockSet2_Pile4_mtl_occlusion.png
+  artifactKey: Guid(c132e862879281b4b89b94c9ca1a2ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile4/PA_RockSet2_Pile4_mtl_occlusion.png using Guid(c132e862879281b4b89b94c9ca1a2ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb06941325986da1130558d0a0d75e') in 0.064808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020512 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile5/PA_RockSet2_Pile5_mtl_occlusion.png
+  artifactKey: Guid(2ab9d86a692b9a146873a861809040f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Rock/PA_RockSet2_Pile5/PA_RockSet2_Pile5_mtl_occlusion.png using Guid(2ab9d86a692b9a146873a861809040f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66403f2bacce4b12e0275c491ec87c4') in 0.042941 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005545 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1107ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6398.
+Memory consumption went from 229.1 MB to 228.3 MB.
+Total: 4.349200 ms (FindLiveObjects: 0.385100 ms CreateObjectMapping: 0.396600 ms MarkObjects: 3.244100 ms  DeleteObjects: 0.322300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.871408 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/PA_TreeSet1_Pile3/PA_TreeSet1_Pile3_mtl_baseColor.png
+  artifactKey: Guid(90103afcf538b174ca531162a8da3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/PA_TreeSet1_Pile3/PA_TreeSet1_Pile3_mtl_baseColor.png using Guid(90103afcf538b174ca531162a8da3a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daed42f5534736d2d59c5133b0438b1') in 0.091170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.697036 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/PA_TreeSet1_Pile5/PA_TreeSet1_Pile5_baseColor.png
+  artifactKey: Guid(056c1b88c93cb224494ab5920f98e3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/PA_TreeSet1_Pile5/PA_TreeSet1_Pile5_baseColor.png using Guid(056c1b88c93cb224494ab5920f98e3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccbca1758cfeb0f8854cb931d1f3c6f') in 0.106130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/Coconut tree/PA_Treeset1Coconut_mtl_normal.png
+  artifactKey: Guid(84e540fea35b8464b88d3b97f05766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/Coconut tree/PA_Treeset1Coconut_mtl_normal.png using Guid(84e540fea35b8464b88d3b97f05766a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9b534cbcf906bfdf56cad2d26ab1f2') in 0.076111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/Coconut tree/PA_Treeset1Coconut_mtl_occlusion.png
+  artifactKey: Guid(cc334e4cd092a224e8ec0975cde3fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/Coconut tree/PA_Treeset1Coconut_mtl_occlusion.png using Guid(cc334e4cd092a224e8ec0975cde3fb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58410bca34533c2a7b904ad7428f7701') in 0.049363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/Banana tree/PA_Treeset2_Bananatree_normal.png
+  artifactKey: Guid(aca821680ba11dd42892768696745492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/Banana tree/PA_Treeset2_Bananatree_normal.png using Guid(aca821680ba11dd42892768696745492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b5f169ea43097b6fcebcd63c7aaa6b') in 0.064464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Trees/Bamboo tree/PA_Treeset1Bamboo_mtl_occlusion.png
+  artifactKey: Guid(3417ced9bb3570042a6dbaf6fcfb2abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Trees/Bamboo tree/PA_Treeset1Bamboo_mtl_occlusion.png using Guid(3417ced9bb3570042a6dbaf6fcfb2abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d4b179cc4974cd887be0db06dfdbdd') in 0.040757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.406317 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill4/PA_Mountainset2_hill4_mtl_occlusion.png
+  artifactKey: Guid(dbda004b7d4e2924da1bf159b36eb4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill4/PA_Mountainset2_hill4_mtl_occlusion.png using Guid(dbda004b7d4e2924da1bf159b36eb4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea736feba6b2bf2d37e59a464e237d9') in 0.060892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill3/PA_Mountainset2_hill3_mtl_occlusion.png
+  artifactKey: Guid(5002f6882b37e3745b42bd6ebd03f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill3/PA_Mountainset2_hill3_mtl_occlusion.png using Guid(5002f6882b37e3745b42bd6ebd03f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0432eaad054eb24abd935868f4449913') in 0.048108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089967 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill2/PA_Mountainset2_hill2_mtl_occlusion.png
+  artifactKey: Guid(54c0e91edc79c7d4c86f2c38e3550ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill2/PA_Mountainset2_hill2_mtl_occlusion.png using Guid(54c0e91edc79c7d4c86f2c38e3550ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d15c13c3704309d030b335c9ca4ae9') in 0.071029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill1/PA_Mountainset2_hill1_mtl_baseColor.png
+  artifactKey: Guid(780b76a865e508d408807df68f89d385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_2/PA_Mountainset2_hill1/PA_Mountainset2_hill1_mtl_baseColor.png using Guid(780b76a865e508d408807df68f89d385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6413a59c56edb58cd1fd1eadf82dca41') in 0.063959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_occlusion.png
+  artifactKey: Guid(c03f20f42ac9c084996a1c860a4c8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_occlusion.png using Guid(c03f20f42ac9c084996a1c860a4c8541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90756135b57360f9e2faeffb4e4eb6a0') in 0.045826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill6/PA_Mountainset1_mtl_occlusion.png
+  artifactKey: Guid(3078340e5f4adb442be1283ab5b0b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill6/PA_Mountainset1_mtl_occlusion.png using Guid(3078340e5f4adb442be1283ab5b0b72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1055c8912a556dba9eb8c304c977d3fe') in 0.049745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032560 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill4/PA_Mountainset1_mtl_occlusion.png
+  artifactKey: Guid(90046c33cbe4efa47bb1546985ff351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill4/PA_Mountainset1_mtl_occlusion.png using Guid(90046c33cbe4efa47bb1546985ff351b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075471eb340bae241e02f66e4d08bd9') in 0.047615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill6/PA_Mountainset1_mtl_normal.png
+  artifactKey: Guid(1dd70bdfb6e8f064d87555b35db77277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill6/PA_Mountainset1_mtl_normal.png using Guid(1dd70bdfb6e8f064d87555b35db77277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fa0b224f0351fc6cc02b38edb7b355') in 0.061008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_normal.png
+  artifactKey: Guid(528cbcaa823145747a12ae7bb6353592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_normal.png using Guid(528cbcaa823145747a12ae7bb6353592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aed6ce85510b86cc9733fed70ad1e3') in 0.069953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069199 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill2/PA_Mountainset1_mtl_normal.png
+  artifactKey: Guid(065dc86a9648b36498a1da6f43e80f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill2/PA_Mountainset1_mtl_normal.png using Guid(065dc86a9648b36498a1da6f43e80f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b754c98d9c0ffa14fa321a8985b32') in 0.065481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Extra/Boat/PA_GroundAssetset_boat1_basecolor.png
+  artifactKey: Guid(66d6e30cd86ab8a48a2936289c84a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Extra/Boat/PA_GroundAssetset_boat1_basecolor.png using Guid(66d6e30cd86ab8a48a2936289c84a6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43772c8a27c55c9c2b39fc49a7a47610') in 0.032693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Extra/Boat/PA_GroundAssetset_boat1_occlusion.png
+  artifactKey: Guid(dd2b4992c6f24c44ebbfb77a3a6c6021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Extra/Boat/PA_GroundAssetset_boat1_occlusion.png using Guid(dd2b4992c6f24c44ebbfb77a3a6c6021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a602d095db6a7874682a3cb8721c934') in 0.038686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Sky/PA_Mountain_1.png
+  artifactKey: Guid(301f37a86aa620042903ec538722cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Sky/PA_Mountain_1.png using Guid(301f37a86aa620042903ec538722cc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878c7afdb5f58c2678d0f08f7fc95c10') in 0.101276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_baseColor.png
+  artifactKey: Guid(1ed6da131699b4142919888d4f0719ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Mountain/Mountainset_1/PA_Mountainset1_hill1/PA_Mountainset1_mtl_baseColor.png using Guid(1ed6da131699b4142919888d4f0719ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853b82acebe67e50dd85e701d447fcf4') in 0.048305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Bamboo/PA_Bambooset2/PA_Bambooset2_occlusion.png
+  artifactKey: Guid(d882d2d28f3c76043acdadb7a7f169f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Bamboo/PA_Bambooset2/PA_Bambooset2_occlusion.png using Guid(d882d2d28f3c76043acdadb7a7f169f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff4263a2fa1cd19e8c502321731cbd') in 0.045760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/LightResource/BambooLamp/PA_bamboolampset1_normal.png
+  artifactKey: Guid(0920f3190fe8ee9489966d1ff196df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/LightResource/BambooLamp/PA_bamboolampset1_normal.png using Guid(0920f3190fe8ee9489966d1ff196df7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63afdd6c1c34c1d966fce8d5c50b2d26') in 0.031230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Bamboo/PA_Bambooset2/PA_Bambooset2_baseColor.png
+  artifactKey: Guid(301f37cff0c5e3844aa365bfdf6ff9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Bamboo/PA_Bambooset2/PA_Bambooset2_baseColor.png using Guid(301f37cff0c5e3844aa365bfdf6ff9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fdcb3c912b94c161efaa13d3b93cfe') in 0.057466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Bamboo/PA_bambooset1/PA_bambooset1_occlusion.png
+  artifactKey: Guid(6c11447791f78f943b3df16574a37786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Bamboo/PA_bambooset1/PA_bambooset1_occlusion.png using Guid(6c11447791f78f943b3df16574a37786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d235d8b284bc9cbcfd3b8a385b673dc') in 0.044990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022522 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/LightResource/BambooLamp/PA_bamboolampset1_baseColor.png
+  artifactKey: Guid(b2a177be47eeced408be6fbf39a0e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/LightResource/BambooLamp/PA_bamboolampset1_baseColor.png using Guid(b2a177be47eeced408be6fbf39a0e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab61f6202306fa1643253e8a4bbe1e20') in 0.020364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@3x.png
+  artifactKey: Guid(5f09d534eb1414449a2758696bd4dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Orientation@3x.png using Guid(5f09d534eb1414449a2758696bd4dd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db8de67e733155bec73d81bc6eb147c') in 0.017754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Extra/OldText/OldText2.png
+  artifactKey: Guid(40b74cf7ea1404d479c62d761d24c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Extra/OldText/OldText2.png using Guid(40b74cf7ea1404d479c62d761d24c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cd56f4172ac8682ce2201b34799f33') in 0.028713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Extra/OldText/OldText.png
+  artifactKey: Guid(7586aaf4dc9f3dc4ab151440a7abbb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Extra/OldText/OldText.png using Guid(7586aaf4dc9f3dc4ab151440a7abbb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b026472d40c9dbca58b11ae1dc453c37') in 0.027650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131608 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png
+  artifactKey: Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/notondisk.png using Guid(b205f4b28f59dda49af458b35d8a3ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1634e469a6cee48a03f54efa68c0a351') in 0.047806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-light.png
+  artifactKey: Guid(4616bb1fdd540b8418c6840020e72248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-light.png using Guid(4616bb1fdd540b8418c6840020e72248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9812bc964934214a1675ce7249d9ef80') in 0.017888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse@4x.png
+  artifactKey: Guid(a0b78c5ab9d654a9daba91ff774b4931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse@4x.png using Guid(a0b78c5ab9d654a9daba91ff774b4931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7160ba0a717c2ac83caccf0718ebd9c4') in 0.015405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse@2x.png
+  artifactKey: Guid(9721efa02e520488d96c36460fe7e4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Mouse@2x.png using Guid(9721efa02e520488d96c36460fe7e4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd3fced16cece38c7031eb9c8f35a1') in 0.016065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-dark.png
+  artifactKey: Guid(e3ea510ab0d9de74d825181746b18285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-dark.png using Guid(e3ea510ab0d9de74d825181746b18285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911d68e574fedcf151ec9a16b2ac52ea') in 0.013457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.046491 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/more-vert-light@2x.png
+  artifactKey: Guid(f9053b8d7b8c0d446a1f1fd28fec65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/more-vert-light@2x.png using Guid(f9053b8d7b8c0d446a1f1fd28fec65c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d556de6e5ef7db8f2e4a460011eba6') in 0.018494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/more-vert-dark@2x.png
+  artifactKey: Guid(366c5b350c052f34aa6909c6563fb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/more-vert-dark@2x.png using Guid(366c5b350c052f34aa6909c6563fb9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf14333591d0914d924ce899c7ca129') in 0.015612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-light@2x.png
+  artifactKey: Guid(52c8930beb5f2774ebec26a86c7e9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-light@2x.png using Guid(52c8930beb5f2774ebec26a86c7e9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e3980c633477b7e4738d4292c5bfa7') in 0.014398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-dark.png
+  artifactKey: Guid(a7dda6e49f4dd1c4bb0fac36bf812173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-dark.png using Guid(a7dda6e49f4dd1c4bb0fac36bf812173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd18d159e87510b733c23b1734904d4') in 0.015760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-conflicts-light.png
+  artifactKey: Guid(d876c6d477e3c3b4891cdee8f10ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/merge-conflicts-light.png using Guid(d876c6d477e3c3b4891cdee8f10ecaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfc24b52085666e39caac304a0a6fe0') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.906891 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill2_mtl.mat
+  artifactKey: Guid(ff93bb40574b13f4f9672f91cc4496f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill2_mtl.mat using Guid(ff93bb40574b13f4f9672f91cc4496f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87835a4b4cfd815c8a17b6a1a41aca5b') in 0.305635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill5_mtl.mat
+  artifactKey: Guid(24cf0fc9e3cc32f47b2dcd214aabf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill5_mtl.mat using Guid(24cf0fc9e3cc32f47b2dcd214aabf6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f121a018788028749b90a2bc5e7f2ba2') in 0.113603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill4_mtl.mat
+  artifactKey: Guid(d2c6f12e726a26a4f8979b3515df6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill4_mtl.mat using Guid(d2c6f12e726a26a4f8979b3515df6ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb06829099d5a3735f0b916ec1179751') in 0.157118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill6_mtl.mat
+  artifactKey: Guid(c5969836d50e72645be60ec9cac5877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill6_mtl.mat using Guid(c5969836d50e72645be60ec9cac5877d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072e47f8b18038efff221b14254ed292') in 0.068205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill3_mtl.mat
+  artifactKey: Guid(71351122dda4e4847864be8be2ed44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Mountain/PA_Mountainset1_hill3_mtl.mat using Guid(71351122dda4e4847864be8be2ed44c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1089c19a69cc1c2a97dc202575151b30') in 0.141569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.716747 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-272_comp_light.exr
+  artifactKey: Guid(b0eb5508e7149a04792c735dbead2caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-272_comp_light.exr using Guid(b0eb5508e7149a04792c735dbead2caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1831646227825e08ec9908128383716e') in 0.035498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png
+  artifactKey: Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmoved.png using Guid(8a6cca56e2b63344eb4769cd92d93ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71aaec2088d6d4358dabb80e45d2db7') in 0.019807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-155_comp_light.exr
+  artifactKey: Guid(0e844174e49579e439a8666444d03a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-155_comp_light.exr using Guid(0e844174e49579e439a8666444d03a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fd906b35dc6174236a7bdfe2a12fa6') in 0.015792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png
+  artifactKey: Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-dark@2x.png using Guid(68295f1d2b4db9040ac84ac00d5554a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbeb18124e2bdea905ef566a813b9a1') in 0.015541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png
+  artifactKey: Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png using Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0877ecc8a7b29e5f704aef23b67da803') in 0.019657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png
+  artifactKey: Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninunity.png using Guid(f9161c6c9e06dc445ada3ee16d991f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb6de76edc80bda6c141c0ef628f94a') in 0.021024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_4.png
+  artifactKey: Guid(1b633f636b5ba4344ae2c00acb85b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_4.png using Guid(1b633f636b5ba4344ae2c00acb85b71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a625c4b5ce6e08977a9838235111c1b9') in 0.063215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-80_comp_light.exr
+  artifactKey: Guid(e2818ac633d147f4782184e6c529805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-80_comp_light.exr using Guid(e2818ac633d147f4782184e6c529805c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb57abcd294b9f69dd68c5c0d0b289e0') in 0.026413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-278_comp_light.exr
+  artifactKey: Guid(3bd196ea5b66fdc43a4968ec59b0dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-278_comp_light.exr using Guid(3bd196ea5b66fdc43a4968ec59b0dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0bc81ee3f68a3a001b3e4340852ef9') in 0.015263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard.png
+  artifactKey: Guid(83382fb171da648c594229ca6fa7ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Keyboard.png using Guid(83382fb171da648c594229ca6fa7ad94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b498b7eee7bbf1fa2942c955eed941fd') in 0.014967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-78_comp_light.exr
+  artifactKey: Guid(62d6c192627f07c4790b44fd813f639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-78_comp_light.exr using Guid(62d6c192627f07c4790b44fd813f639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95799dee98fff68510664f657adf45b') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-234_comp_light.exr
+  artifactKey: Guid(479670d78c0fc8f448b2db36ebc350f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-234_comp_light.exr using Guid(479670d78c0fc8f448b2db36ebc350f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92e45a8361fd1177a2f94f6ac45cabc') in 0.015639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@2x.png
+  artifactKey: Guid(1c37f00575bd6494ea726be5afee89b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button@2x.png using Guid(1c37f00575bd6494ea726be5afee89b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f8f9f942e6bf383b0e1346a39d6331') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-276_comp_light.exr
+  artifactKey: Guid(a56d3aca281e09d48b5d5c02c5d89390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-276_comp_light.exr using Guid(a56d3aca281e09d48b5d5c02c5d89390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f13416990c50374e172a84ee757d1f1') in 0.014611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-82_comp_light.exr
+  artifactKey: Guid(d5d0e26ed1641a040b3c997dfcbeeb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-82_comp_light.exr using Guid(d5d0e26ed1641a040b3c997dfcbeeb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e7012c82b156a790e36599dc8fea16') in 0.014691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png
+  artifactKey: Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png using Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b743cb187200a9765f54366a99f6d3d') in 0.019461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-235_comp_light.exr
+  artifactKey: Guid(877deb895450eba489d651a6e911969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-235_comp_light.exr using Guid(877deb895450eba489d651a6e911969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea41aa67d616454192a73160b142406c') in 0.014880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png
+  artifactKey: Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Button.png using Guid(2a5d0a7febdc741039abf135883517e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac0ae1b332d3c4151ef827944f19fd6') in 0.015317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png
+  artifactKey: Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail.png using Guid(d24e7e0b75e1a244bb9687d6fd4315ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672d0e7fc9defbd023afbb13804ab144') in 0.020754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-21_comp_light.exr
+  artifactKey: Guid(418140a5648da5e46b90e31155130410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-21_comp_light.exr using Guid(418140a5648da5e46b90e31155130410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c80de73e75c3a7bfb1331ad6ce0bc3e') in 0.015959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Extra/Bridge/bridge parts2_PA_BridgeSet_PileMtl_BaseColor.png
+  artifactKey: Guid(15dd23bbbad6de84dac40787d559d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Extra/Bridge/bridge parts2_PA_BridgeSet_PileMtl_BaseColor.png using Guid(15dd23bbbad6de84dac40787d559d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c7e6d7138ea1e964bd4105b6511387') in 0.052782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick@4x.png
+  artifactKey: Guid(d88596134c72c47b99d7d55583f4c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick@4x.png using Guid(d88596134c72c47b99d7d55583f4c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbba0766e22169baae4ca76fe9c2f39c') in 0.028585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-281_comp_light.exr
+  artifactKey: Guid(fed49b62a45117346868034ef1ee6535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-281_comp_light.exr using Guid(fed49b62a45117346868034ef1ee6535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6c889947f17b4f6fbcdbb25e7d0398') in 0.019409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-76_comp_light.exr
+  artifactKey: Guid(6812c09fda2b6dc49a056b3cd24e7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-76_comp_light.exr using Guid(6812c09fda2b6dc49a056b3cd24e7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5215bf824b373978f5d0611a8307348d') in 0.024444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-232_comp_light.exr
+  artifactKey: Guid(38133ed877ef53948bd161ffc0d6e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-232_comp_light.exr using Guid(38133ed877ef53948bd161ffc0d6e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3711a07ed1ae6db8e2f1739350d8770') in 0.022283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-226_comp_light.exr
+  artifactKey: Guid(dcb1c030fb973c445afb73d9eaad80cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-226_comp_light.exr using Guid(dcb1c030fb973c445afb73d9eaad80cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab29d294e9ffcdf71adb9ae8e4de42a4') in 0.015569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-20_comp_light.exr
+  artifactKey: Guid(dda3359ee97cd424f8ce5c8cca15e681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-20_comp_light.exr using Guid(dda3359ee97cd424f8ce5c8cca15e681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e1d5511868b093f35f6a22bc24b16e') in 0.029518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-15_comp_light.exr
+  artifactKey: Guid(da54d5fd8c750ab4a9e6a663bc32cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-15_comp_light.exr using Guid(da54d5fd8c750ab4a9e6a663bc32cdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dca02223b747e2dbd6bacf5fec05030') in 0.013734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-273_comp_light.exr
+  artifactKey: Guid(2281e919ab8bea946adb697d7c12d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-273_comp_light.exr using Guid(2281e919ab8bea946adb697d7c12d921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828c1fabb84b1705b321335147265652') in 0.014300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-230_comp_light.exr
+  artifactKey: Guid(430db4fdd3fd21447bb9ff8ccaf7b547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-230_comp_light.exr using Guid(430db4fdd3fd21447bb9ff8ccaf7b547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e31cbb652712be7af988e78b33ff73') in 0.015257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Add Binding@2x.png
+  artifactKey: Guid(3d7dc8d6b9a96490b9aa433645712fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Add Binding@2x.png using Guid(3d7dc8d6b9a96490b9aa433645712fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ea4e6cae85eeb37a22d2cfe51f2b0') in 0.019508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-light.png
+  artifactKey: Guid(159b6ffcecc70b54a991cab02c8be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-light.png using Guid(159b6ffcecc70b54a991cab02c8be883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32656440d71b03732b7e6e9d732bf6a4') in 0.014056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-156_comp_light.exr
+  artifactKey: Guid(0999feb7e1e45e84c801525026a4ef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-156_comp_light.exr using Guid(0999feb7e1e45e84c801525026a4ef6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e518a464a8ba1d78a23e5872fdadb0') in 0.015494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick@2x.png
+  artifactKey: Guid(27fa98be5deb54cbf9c11ffc540272b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick@2x.png using Guid(27fa98be5deb54cbf9c11ffc540272b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34102093822a599e9148c119ac7a4fb2') in 0.015064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-160_comp_light.exr
+  artifactKey: Guid(4649fe9fb4a480d468752ffc105b111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-160_comp_light.exr using Guid(4649fe9fb4a480d468752ffc105b111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deca3e255aa8db90ec41a88c5bb93c07') in 0.016356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png
+  artifactKey: Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigninemail@2x.png using Guid(ddf2e76e8a1f88f46ae1e42277850b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0122041eca69b866a01cbacf18a68385') in 0.022505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png
+  artifactKey: Guid(da545229eea36164d8b8cba2f75a1143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar@2x.png using Guid(da545229eea36164d8b8cba2f75a1143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bed9c78f7cf957a182526c2e9208b20') in 0.024771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick.png
+  artifactKey: Guid(7d4638131127c4f4382fb36cf16c52fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/d_Joystick.png using Guid(7d4638131127c4f4382fb36cf16c52fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c35b52e7720cf1bf7c52fed13010e3') in 0.017263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-23_comp_light.exr
+  artifactKey: Guid(7886af61851e43e498d3ccf86f1e4965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-23_comp_light.exr using Guid(7886af61851e43e498d3ccf86f1e4965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9900f9f1ba8a6bfb9b5f20daf5891500') in 0.015927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay.png
+  artifactKey: Guid(3eb463f682a32ab48b98a68d3361e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay.png using Guid(3eb463f682a32ab48b98a68d3361e524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bc28bbfa0ef3139ed3a3d6e6ba4cad') in 0.027890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-162_comp_light.exr
+  artifactKey: Guid(b07ecb5212f274d4a9b9b8f0348db92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-162_comp_light.exr using Guid(b07ecb5212f274d4a9b9b8f0348db92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b4fb061f89ed5be39726a6be7ca07b') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-161_comp_light.exr
+  artifactKey: Guid(04963d1b1d1366d4a94e7d5742405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-161_comp_light.exr using Guid(04963d1b1d1366d4a94e7d5742405927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbc97d90370a07bab05efee20df5d60') in 0.014193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_1.png
+  artifactKey: Guid(6ce0f98802b142740b0e8916d3a3e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreen_1.png using Guid(6ce0f98802b142740b0e8916d3a3e127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583a5e3ec4225d8cf5e995e881b46c4e') in 0.018623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-light@2x.png
+  artifactKey: Guid(0365b40fda51ad5499dfe50b036adb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/conflicted-file-light@2x.png using Guid(0365b40fda51ad5499dfe50b036adb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b1cd552dfe3ed928e329922b15221') in 0.024576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-158_comp_light.exr
+  artifactKey: Guid(9aca3f54bb6e12f4caa09d2ffaf284d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-158_comp_light.exr using Guid(9aca3f54bb6e12f4caa09d2ffaf284d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6e134b5f76f7bcff235c9d1547cde6') in 0.019096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-83_comp_light.exr
+  artifactKey: Guid(2483dec14a4e39945b2d430d5c9235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-83_comp_light.exr using Guid(2483dec14a4e39945b2d430d5c9235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9197f84f1429cdafeca68b3c6c8552e6') in 0.015654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_3.png
+  artifactKey: Guid(5093b96e63d6770408b36568ab6ad828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_3.png using Guid(5093b96e63d6770408b36568ab6ad828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692dcab939d778d482ff69bad61a3eb0') in 0.060142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_1.png
+  artifactKey: Guid(f419805b1917e2a499cf04d2b678d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Grass/Grass_1.png using Guid(f419805b1917e2a499cf04d2b678d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163576c6abc7d201be2167150cfb43bc') in 0.054023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-154_comp_light.exr
+  artifactKey: Guid(6405b2dfa14a5b34cb041197cfbd4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-154_comp_light.exr using Guid(6405b2dfa14a5b34cb041197cfbd4392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489bb3329a57f99d7a8d0da0861aa47b') in 0.017397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@2x.png
+  artifactKey: Guid(4defb5292901c41f29313d9c9c87a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Gamepad@2x.png using Guid(4defb5292901c41f29313d9c9c87a7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58cff51249262559b36f29710371d8e6') in 0.016351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-225_comp_light.exr
+  artifactKey: Guid(4f09464c75d64054d8eded46fdaa3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-225_comp_light.exr using Guid(4f09464c75d64054d8eded46fdaa3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06519f243da52ad45577b8cc916e3ba') in 0.017642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-19_comp_light.exr
+  artifactKey: Guid(db08112c7ad767b478eda811c2fd600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-19_comp_light.exr using Guid(db08112c7ad767b478eda811c2fd600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c707654c5f1795972ec7a36ccc64e76') in 0.020165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-81_comp_light.exr
+  artifactKey: Guid(312d1def0773c9b40ad249875fb3f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Scenes/PA_AncientVillageDay/Lightmap-81_comp_light.exr using Guid(312d1def0773c9b40ad249875fb3f58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf81edab04ad5da81f87994568198d2') in 0.016426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.514248 seconds.
+  path: Assets/Prefabs/Materials/parasiteZombie_normal 1.png
+  artifactKey: Guid(ec6f46467e79ee646bffc1750917b4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materials/parasiteZombie_normal 1.png using Guid(ec6f46467e79ee646bffc1750917b4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014e16979891f305ea78c100baaf4e05') in 0.072033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Water/WaterNormal.png
+  artifactKey: Guid(bd112cd553bdb52458cf1f644b9c8c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Water/WaterNormal.png using Guid(bd112cd553bdb52458cf1f644b9c8c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff8153de61c67f98215b6533590d049') in 0.035448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.166908 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_5.png
+  artifactKey: Guid(b12fa94c6d8f4894f95417d02db7e542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_5.png using Guid(b12fa94c6d8f4894f95417d02db7e542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e177583c00ce1fbfa60429800d548fcb') in 0.050099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_1.png
+  artifactKey: Guid(998b6db7d00c33e478536ed86ebe4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_1.png using Guid(998b6db7d00c33e478536ed86ebe4a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceca015dc3998598fe428fc931aefd6b') in 0.038032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_3.png
+  artifactKey: Guid(5b81b9861d1fb2640b2331c17b314619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_3.png using Guid(5b81b9861d1fb2640b2331c17b314619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db37a90bcc072a108cc75e668da9a2b') in 0.023665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_3.png
+  artifactKey: Guid(9392b9f092475004dbd67f1071ad3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSandNormal_3.png using Guid(9392b9f092475004dbd67f1071ad3454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc33ddaac3b010678cf56d66f495bfe0') in 0.030040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.248484 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile1.fbx
+  artifactKey: Guid(01091691da504d14eafe1fad49960046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile1.fbx using Guid(01091691da504d14eafe1fad49960046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29a9fc870acd505d72b2a3dde14a0e1') in 0.088259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile3.fbx
+  artifactKey: Guid(13f9ee7da1990f24fa520da641a85d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile3.fbx using Guid(13f9ee7da1990f24fa520da641a85d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a40b8366c88fda36238ad40049d6c1') in 0.020147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile4.fbx
+  artifactKey: Guid(9dc61ac7dd8dc3d408c778f29b2b6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Extra/Bridge/PA_BridgeSet_Pile4.fbx using Guid(9dc61ac7dd8dc3d408c778f29b2b6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80d83631d7fe09f6c9745fd4efe2617') in 0.025409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.017114 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Bamboo/Bambooset1/PA_Bambooset1_Stick2.fbx
+  artifactKey: Guid(a3187c9dd388f6c4e9d8735e8cf047c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Bamboo/Bambooset1/PA_Bambooset1_Stick2.fbx using Guid(a3187c9dd388f6c4e9d8735e8cf047c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4657cfec22bddd239a5fed79c1d46224') in 0.142795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/POLYART_Ancient Village/Models/Bamboo/Bambooset1/PA_Bambooset1_Stick3.fbx
+  artifactKey: Guid(bd0bd9cc716131240a901ceece93f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Models/Bamboo/Bambooset1/PA_Bambooset1_Stick3.fbx using Guid(bd0bd9cc716131240a901ceece93f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35732540efa22dcd07ffbb957eca797b') in 0.118117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.795851 seconds.
+  path: Assets/POLYART_Ancient Village/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(aa91e29db54c8444b9fe07df49157281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(aa91e29db54c8444b9fe07df49157281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d224e0c462c70131847f9045cabaacd') in 0.011130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.567440 seconds.
+  path: Assets/BridgeSet.prefab
+  artifactKey: Guid(2327bab5ad4b108438f50b391090acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BridgeSet.prefab using Guid(2327bab5ad4b108438f50b391090acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbae52125421ff90e3b76d3a065df6a') in 0.064073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Terrain.prefab
+  artifactKey: Guid(61de5ae85d93cab49a27a8e2a6ba00a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain.prefab using Guid(61de5ae85d93cab49a27a8e2a6ba00a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45ab7f00a97814abdc633afc9047d71') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.131163 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_1.png
+  artifactKey: Guid(5379627da54816a4aa615d8c1e3e7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundGreenNormal_1.png using Guid(5379627da54816a4aa615d8c1e3e7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad2e51c4151d0c525824f74a158696f') in 0.104092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_10.png
+  artifactKey: Guid(267c2839d7d0abb40bca3df63e432820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_10.png using Guid(267c2839d7d0abb40bca3df63e432820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb10de2abaea37ab90f6904ec947c16') in 0.055088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_1.png
+  artifactKey: Guid(f8f6832d24c8d42489395ceee1cfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_1.png using Guid(f8f6832d24c8d42489395ceee1cfb71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d3a16395f91396bb7e7c00a7d1252b') in 0.025847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_2.png
+  artifactKey: Guid(1bcdee215fa6f2648b54a14b15851fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_2.png using Guid(1bcdee215fa6f2648b54a14b15851fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa4a112d91fa0a82948329d07e7012e') in 0.032630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_3.png
+  artifactKey: Guid(746e12336206a4d4a804eb5c574823aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_3.png using Guid(746e12336206a4d4a804eb5c574823aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab99d1b0099a1c3da3ea4e4ba4e5e348') in 0.028127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_6.png
+  artifactKey: Guid(843b955963a68db4abd32bd1a0457ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/Terrian/Ground/GroundSand_6.png using Guid(843b955963a68db4abd32bd1a0457ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dc14d1cd42b201d1946b15027bb157') in 0.022210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.340205 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/FX/PA_Fireset2_mtl.mat
+  artifactKey: Guid(6e0eb6456d8b98847863fc46a601985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/FX/PA_Fireset2_mtl.mat using Guid(6e0eb6456d8b98847863fc46a601985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917279b21bbe16ffbc0ac2d49153d8e6') in 0.204277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.439578 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Extra/PA_Bridge_mtl.mat
+  artifactKey: Guid(f0e96afb04eee2f4c8e3c764192117ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Extra/PA_Bridge_mtl.mat using Guid(f0e96afb04eee2f4c8e3c764192117ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4439171e1419661f264f530624975b98') in 0.022769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Extra/PA_Oldtext_mtl.mat
+  artifactKey: Guid(bc3567549e2edd840b70212b7320670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Extra/PA_Oldtext_mtl.mat using Guid(bc3567549e2edd840b70212b7320670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2ebf43479e351a1e9cfce57a5b08cc') in 0.049469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.154873 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Bamboo/PA_BambooSet1_mtl.mat
+  artifactKey: Guid(b725e7c2737938d47bbf7f757a3c069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Bamboo/PA_BambooSet1_mtl.mat using Guid(b725e7c2737938d47bbf7f757a3c069f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed04cf64787f0a5aee582dac8408c7a') in 0.074796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Materials/Bamboo/PA_BambooSet2_mtl.mat
+  artifactKey: Guid(9af9915ce9643eb419a171470f6bb860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Materials/Bamboo/PA_BambooSet2_mtl.mat using Guid(9af9915ce9643eb419a171470f6bb860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c354f74abcc0f8973efdaac6d5c128') in 0.066857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.390910 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_FireFX_1.prefab
+  artifactKey: Guid(3657e241574237049b72dc96ff528963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_FireFX_1.prefab using Guid(3657e241574237049b72dc96ff528963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4cca88cc7fc53d9163d3073799deb4') in 0.030152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill3.prefab
+  artifactKey: Guid(5e02c28cda3c5c043a8d1a459a3c56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill3.prefab using Guid(5e02c28cda3c5c043a8d1a459a3c56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541ff37493f43f0d66b41d40a873563e') in 0.006462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile1.prefab
+  artifactKey: Guid(b0caf8f2b511ed948be263d59a83cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile1.prefab using Guid(b0caf8f2b511ed948be263d59a83cd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e999a11b8043a30fbdaef9077b9c20') in 0.005405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab
+  artifactKey: Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile4.prefab using Guid(110ab91f45d8a214a8062042ed7b6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30877a383f59abd343ded3f928a54d56') in 0.008584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill4.prefab
+  artifactKey: Guid(84b21cd9c885ed4489cd82a8d1e76404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill4.prefab using Guid(84b21cd9c885ed4489cd82a8d1e76404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2667846d5dcd4301afbd5ea28aaccc') in 0.004653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab
+  artifactKey: Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill1.prefab using Guid(205dc750c0f1a414097299b0486dc5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be2e7fea977d1c66c885aa6c04b232d') in 0.006435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill2.prefab
+  artifactKey: Guid(cae80e7e19b93014d81c2b7b4e200e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill2.prefab using Guid(cae80e7e19b93014d81c2b7b4e200e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5781f372512f48575a493656571e15') in 0.009792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill2.prefab
+  artifactKey: Guid(25abdf0df20e34d438180f8e6ee580ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill2.prefab using Guid(25abdf0df20e34d438180f8e6ee580ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cc1ebe723eb31c4bb1807730ec7e24') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile2.prefab
+  artifactKey: Guid(c8829fa2ecdc9fb44ad80d79ee74afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile2.prefab using Guid(c8829fa2ecdc9fb44ad80d79ee74afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61c72e876b094282720b19a7d28ce9b') in 0.005386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab
+  artifactKey: Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_mountainset2_hill4.prefab using Guid(ef71cb488ba16b74eaf2162875b5cfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0a26143051002d0c9d3dc4f48c1341') in 0.005545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile3.prefab
+  artifactKey: Guid(55d0cf9201b2ac8418490124e17fb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet2_Pile3.prefab using Guid(55d0cf9201b2ac8418490124e17fb500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12fd21dce73e334e2d8a48c3233880b6') in 0.008425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab
+  artifactKey: Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet1_Pile2.prefab using Guid(92708350b8f04c840ab5aedfdaf0a9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d51c46663330afce796f35391dce4b4') in 0.007762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab
+  artifactKey: Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_Mountainset1_hill5.prefab using Guid(b8c1ed278e5882e4aafbe094be466a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70292841d6fdfaccecd7aae91060504') in 0.007505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.449645 seconds.
+  path: Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab
+  artifactKey: Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Prefabs/PA_RockSet3_Pile1.prefab using Guid(072a75a17fa7779498df2abb44cebbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c382f6e15bd0fe784b5d9aadbea6a3') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.025750 seconds.
+  path: Assets/POLYART_Ancient Village/Textures/FX/MagicBall.png
+  artifactKey: Guid(1fdb42febc45b3a4a9da13b43196ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYART_Ancient Village/Textures/FX/MagicBall.png using Guid(1fdb42febc45b3a4a9da13b43196ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9ad4f7d595e67a0d4b9b4cde327e42') in 0.027679 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004509 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.148 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5623 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6470.
+Memory consumption went from 228.7 MB to 227.9 MB.
+Total: 3.272400 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.224300 ms MarkObjects: 2.397200 ms  DeleteObjects: 0.275200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005464 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1169ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (284ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6485.
+Memory consumption went from 228.8 MB to 228.0 MB.
+Total: 3.834800 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.445800 ms MarkObjects: 2.665200 ms  DeleteObjects: 0.372200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (260ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6500.
+Memory consumption went from 228.8 MB to 228.0 MB.
+Total: 3.196300 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.449200 ms  DeleteObjects: 0.268700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005365 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (874ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6515.
+Memory consumption went from 228.8 MB to 228.0 MB.
+Total: 4.753300 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.447700 ms MarkObjects: 3.541300 ms  DeleteObjects: 0.439500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6530.
+Memory consumption went from 228.8 MB to 228.0 MB.
+Total: 2.991200 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.180200 ms MarkObjects: 2.226400 ms  DeleteObjects: 0.269400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6545.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 3.684500 ms (FindLiveObjects: 0.590500 ms CreateObjectMapping: 0.240800 ms MarkObjects: 2.567500 ms  DeleteObjects: 0.284600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6560.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 2.870100 ms (FindLiveObjects: 0.290300 ms CreateObjectMapping: 0.177000 ms MarkObjects: 2.151300 ms  DeleteObjects: 0.249900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004522 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1112ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (917ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6575.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 3.780700 ms (FindLiveObjects: 0.465200 ms CreateObjectMapping: 0.323000 ms MarkObjects: 2.667300 ms  DeleteObjects: 0.323600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005444 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6590.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 3.188800 ms (FindLiveObjects: 0.400800 ms CreateObjectMapping: 0.220300 ms MarkObjects: 2.275200 ms  DeleteObjects: 0.291800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6605.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 3.886000 ms (FindLiveObjects: 0.424900 ms CreateObjectMapping: 0.304500 ms MarkObjects: 2.823500 ms  DeleteObjects: 0.332200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6620.
+Memory consumption went from 228.9 MB to 228.1 MB.
+Total: 3.952000 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.333400 ms MarkObjects: 2.776400 ms  DeleteObjects: 0.394500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1010ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (373ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6635.
+Memory consumption went from 229.0 MB to 228.2 MB.
+Total: 3.142800 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.208300 ms MarkObjects: 2.347400 ms  DeleteObjects: 0.275000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1102ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (318ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6650.
+Memory consumption went from 229.0 MB to 228.2 MB.
+Total: 3.461300 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.174900 ms MarkObjects: 2.668400 ms  DeleteObjects: 0.288800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1014ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (824ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6665.
+Memory consumption went from 229.0 MB to 228.2 MB.
+Total: 2.800000 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.172400 ms MarkObjects: 2.072900 ms  DeleteObjects: 0.250900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1035ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6680.
+Memory consumption went from 229.0 MB to 228.2 MB.
+Total: 3.126200 ms (FindLiveObjects: 0.365200 ms CreateObjectMapping: 0.179600 ms MarkObjects: 2.245500 ms  DeleteObjects: 0.334800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005019 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6695.
+Memory consumption went from 229.1 MB to 228.2 MB.
+Total: 3.687600 ms (FindLiveObjects: 0.331900 ms CreateObjectMapping: 0.228900 ms MarkObjects: 2.795400 ms  DeleteObjects: 0.330000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005372 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6710.
+Memory consumption went from 229.1 MB to 228.3 MB.
+Total: 3.029200 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.168900 ms MarkObjects: 2.270000 ms  DeleteObjects: 0.279200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (445ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6725.
+Memory consumption went from 229.1 MB to 228.3 MB.
+Total: 3.029600 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.174500 ms MarkObjects: 2.283500 ms  DeleteObjects: 0.262200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yasin\JellyFish - Clone\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5624 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 6740.
+Memory consumption went from 229.1 MB to 228.3 MB.
+Total: 3.054600 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.184200 ms  DeleteObjects: 0.383500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
